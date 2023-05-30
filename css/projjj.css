@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(90, 247, 252); */
+    background-image: url(https://www.tata.com/content/dam/tata/images/verticals/desktop/infiniti_banner_desktop_1920x1080.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+section
+{
+    margin-right: 7rem;
+    border: 2px solid;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.22);
+}
+
+input{
+    margin: 0.5rem 0;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+button{
+    width: 7.5rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-radius: 5px;
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+h1{
+    margin: 1rem;
+    text-align: center;
+}
